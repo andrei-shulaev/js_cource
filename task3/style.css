@@ -1,0 +1,45 @@
+body {
+    background-color: darkgray;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.group {
+    width: 900px;
+    display:flex;
+    flex-flow:column wrap;
+    height:500px;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 10px;
+}
+
+.group form {
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+.btn {
+    height: 100%;
+    font-size: 40px;
+}
+
+.slider {
+    display: flex;
+    margin: auto;
+}
+
+.slider img {
+    background-color: grey;
+}
+
+.slider span {
+    display: inline-block;
+    /*height: 100%;*/
+    margin-top: 150px;
+    height: 30px;
+    cursor: pointer;
+}

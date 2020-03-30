@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="group">
+        <form>
+            <input type="text" id="path" placeholder="url">
+            <button type="button" id="add-img">Add</button>
+            <label for="quantity">Timer (sec):</label>
+            <input id="timer" type="number" name="quantity" min="0" step="1" value="3">
+        </form>
+        <div class="slider">
+            <span
+                    class="btn btn-left"><</span>
+            <img id="image" height="350" width="600" src=image.png>
+            <span class="btn btn-right">></span>
+        </div>
+    </div>
+</div>
+
+<script src="./src.js"></script>
+</body>
+</html>

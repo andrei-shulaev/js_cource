@@ -1,0 +1,43 @@
+body {
+    background-color: darkgray;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.group {
+    width: 850px;
+    display:flex;
+    flex-flow:column wrap;
+    height:400px;
+    /*position: relative;*/
+    background-color: whitesmoke;
+}
+
+.col1 {
+    border: 1px solid black;
+    width: 40%;
+}
+.group textarea {
+    height: 60%;
+}
+
+.group input {
+    height: 20%;
+}
+
+.col2 {
+    height: 100%;
+    width: 60%;
+
+}
+
+.group p {
+    /*word-break: break-all;*/
+    padding: 15px;
+    width: 55%;
+}
+
+

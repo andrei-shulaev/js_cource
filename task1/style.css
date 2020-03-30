@@ -1,0 +1,20 @@
+body {
+    background-color: darkgray;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+
+.container textarea {
+    margin-top: 30px;
+    margin-left: 30px;
+    order: 2;
+}
+
+.container p {
+    /*order: 2;*/
+
+}
